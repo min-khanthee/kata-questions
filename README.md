@@ -44,7 +44,8 @@ console.log(isIsogram('person')) //true
 
 #### Task:
 
-implement function isLeapYear(). Leap years occur every four years (divisible by four), aside from century years, and when the year is divisible by 400.
+implement function isLeapYear(). Leap years occur every four years (divisible by four).
+Leap years do not occur in century years, unless it is divisible by 400.
 
 Example:
 
