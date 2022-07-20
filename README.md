@@ -39,3 +39,16 @@ Implement an isogram check function. Isogram is a string where all letters are p
 Example:
 console.log(isIsogram('ladygAgA')) // false
 console.log(isIsogram('person')) //true
+
+### 4. Leap Year function
+
+#### Task:
+
+implement function isLeapYear(). Leap years occur every four years (divisible by four), aside from century years, and when the year is divisible by 400.
+
+Example:
+
+console.log(isLeapYear("2020")) // true
+console.log(isLeapYear("2018")) // false
+console.log(isLeapYear("1700")) // false
+console.log(isLeapYear("1600")) // true
