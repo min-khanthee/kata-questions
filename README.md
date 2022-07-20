@@ -6,7 +6,7 @@ A repo containing a variety of short kata questions to practice Javascript.
 
 #### Task:
 
-Implement a Pangram check function. This is checks to see that an input string contains all of the letters of the English alphabet.
+Implement a Pangram check function. This checks to see that an input string contains all of the letters of the English alphabet.
 
 For Example:
 
@@ -29,3 +29,13 @@ console.log(toBeatBox(15)) //doofkapow
 console.log(toBeatBox(35)) //kapowkaching
 console.log(toBeatBox(21)) //doofkaching
 console.log(toBeatBox(2)) //2
+
+### 3. isogram function
+
+#### Task:
+
+Implement an isogram check function. Isogram is a string where all letters are present only once.
+
+Example:
+console.log(isIsogram('ladygAgA')) // false
+console.log(isIsogram('person')) //true
