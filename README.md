@@ -53,3 +53,14 @@ console.log(isLeapYear("2020")) // true
 console.log(isLeapYear("2018")) // false
 console.log(isLeapYear("1700")) // false
 console.log(isLeapYear("1600")) // true
+
+### 5. Encode & Decode Function
+
+#### Task:
+
+implement functions that follow a run length encoding pattern. Run length encoding is a form of data compression, where consecutive data elements are replaced by just one data value and count of that value.
+
+Example:
+
+console.log(encode('wwwiiuuuu')) // 3w2i4u
+console.log(decode('2u3a4o')) // uuaaaooo
