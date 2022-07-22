@@ -64,3 +64,14 @@ Example:
 
 console.log(encode('wwwiiuuuu')) // 3w2i4u
 console.log(decode('2u3a4o')) // uuaaaooo
+
+### 6. Remove Duplicate Values
+
+#### Task:
+
+Implement a function that removes the duplicate values from an array. Only using array.reduce()
+
+Example:
+
+console.log('one', 'two', 'two', 'three', 'three')
+// ['one', 'two', 'three']
