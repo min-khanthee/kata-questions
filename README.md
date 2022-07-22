@@ -75,3 +75,21 @@ Example:
 
 console.log(removeDuplicateValues(['one', 'two', 'two', 'three', 'three']))
 // ['one', 'two', 'three']
+
+### 7. Implement array.map with reduce.
+
+#### Task:
+
+Implement your own array mapping function with reduce.
+
+Example:
+console.log(map([1, 2, 3], (v) => v + 1)) // [2, 3, 4]
+
+### 8. Flatten nested array
+
+#### Task:
+
+Implement a function that flattens a nested array using recursive reduce - makeFlat()
+
+Example:
+console.log(makeFlat(["one", ["two", "three"], ["four", ["five"]]])) // ["one", "two", "three", "four", "five"]
