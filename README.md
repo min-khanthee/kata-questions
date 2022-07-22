@@ -73,5 +73,5 @@ Implement a function that removes the duplicate values from an array. Only using
 
 Example:
 
-console.log('one', 'two', 'two', 'three', 'three')
+console.log(removeDuplicateValues(['one', 'two', 'two', 'three', 'three']))
 // ['one', 'two', 'three']
