@@ -93,3 +93,19 @@ Implement a function that flattens a nested array using recursive reduce - makeF
 
 Example:
 console.log(makeFlat(["one", ["two", "three"], ["four", ["five"]]])) // ["one", "two", "three", "four", "five"]
+
+### 9. Transpose Matrix
+
+#### Task:
+
+Implement a function that transposes a matrix array - transposeMatrix()
+
+Example:
+
+console.log(transposeMatrix(
+[
+[1,2,3]
+[1,2,3]
+[1,2,3]
+]
+)) // [[1,1,1],[2,2,2],[3,3,3]]
