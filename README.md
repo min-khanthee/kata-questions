@@ -109,3 +109,13 @@ console.log(transposeMatrix(
 [1,2,3]
 ]
 )) // [[1,1,1],[2,2,2],[3,3,3]]
+
+### 10. Find top word
+
+#### Task:
+
+Find the top word from a string of words.
+
+Example:
+
+console.log(topWord('The cat sat on the mat') // 'the'
